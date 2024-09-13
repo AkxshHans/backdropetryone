@@ -1,0 +1,426 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body {
+    width: 100%;
+    height: 100%;
+}
+.page1 {
+    width: 100vw;
+    height: 100vh;
+}
+.nav {
+    width: 100vw;
+    height: 50px;
+    background-color: rgba(220, 220, 220, 0.226);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2vw;
+
+}
+.nav h4 {
+    font-size: 1.7vw;
+    font-weight: 700;
+    font-family: 'Clash Grotesk', sans-serif;
+    color: black;
+}
+.navlinks {
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+    padding-right: 2vw;
+
+}
+.navlinks h5 {
+    font-size: 1.2vw;
+    font-weight: 550;
+    font-family: 'Excon', sans-serif;
+}
+.onepages {
+    display: flex;
+}
+#page1left {
+    width: 50%;
+    height: 93vh;
+    /* background-color: red; */
+}
+.boxleft {
+    width: 90%;
+    height: 80%;
+    margin-left: 2.2vw;
+    margin-top: 10vw;
+}
+.boxleft h4 {
+    font-size: 1.5vw;
+    font-weight: 700;
+    font-family: 'Clash Grotesk', sans-serif;
+    color: black;
+    text-align: center;
+    padding-top: 3vw;
+}
+.boxleft h1 {
+    font-size:8.1vw;
+    font-weight: 700;
+    font-family: 'Clash Grotesk', sans-serif;
+    color: black;
+    text-align: center;
+    padding-top: 3vw;
+    font-family: 'Stardom', sans-serif;
+    
+
+}
+.boxleft h5 {
+    font-size: 1.6vw;
+    font-weight: 550;
+    font-family: 'Excon', sans-serif;
+    color: black;
+    text-align: center;
+    padding-top: 3vw;
+}
+#page1right {
+    width: 50%;
+    height: 93vh;
+}
+#page1right video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.page2 {
+    width: 100vw;
+    height: auto;
+}
+.page2 h2 {
+    text-align: center;
+    margin-top: 2.5vw;
+    font-weight: 200;
+}
+.page2 h3 {
+    text-align: center;
+    margin-top: 1vw;
+    font-size: 2vw;
+    font-family: 'Clash Grotesk', sans-serif;
+
+}
+.services video {
+    transition:cubic-bezier(0.25, 0.46, 0.45, 0.94) 2s;
+    filter: grayscale(0);
+}
+.services video:hover {
+    filter: grayscale(1);
+    opacity: 0.8;
+}
+.services h2 {
+    font-size: 6vw;
+    color: rgb(105, 104, 104);
+    font-family: 'Melodrama', serif;
+}
+#serviceone {
+    width: 90vw;
+    height: 70vh;
+    margin-left: 5vw;
+    margin-top: 3vw;
+    border-radius: 2vw;
+}
+#oneh {
+    margin-left: -74vw;
+}
+#servicetwo {
+    width: 90vw;
+    height: 70vh;
+    margin-left: 5vw;
+    margin-top: 3vw;
+    border-radius: 2vw;
+}
+#twoh {
+    margin-left: -74vw;
+}
+#servicethree {
+    width: 90vw;
+    height: 70vh;
+    margin-left: 5vw;
+    margin-top: 3vw;
+    border-radius: 2vw;
+}
+#threeh {
+    margin-left: -79vw;
+}
+#servicefour {
+    width: 90vw;
+    height: 70vh;
+    margin-left: 5vw;
+    margin-top: 3vw;
+    border-radius: 2vw;
+}
+#fourh {
+    margin-left: -69vw;
+}
+#servicefive {
+    width: 90vw;
+    height: 70vh;
+    margin-left: 5vw;
+    margin-top: 3vw;
+    border-radius: 2vw;
+}
+#fiveh {
+    margin-left: -71vw;
+}
+.footermain {
+    margin-top: 9vw;
+    width: 100vw;
+    height: 80vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    padding-top: 2vw;
+   
+}
+.footermain h3 {
+    font-size: 1.5vw;
+    font-weight: 100;
+}
+#contactlist {
+    line-height: 2;
+}
+#followlist a {
+    text-decoration: none;
+    color: white;
+    line-height: 2;
+
+}
+#menulist a {
+    text-decoration: none;
+    color: white;
+    line-height: 2;
+
+}
+.footerfooter h1 {
+    font-size: 15vw;
+    color: white;
+    position: absolute;
+    bottom: -270vw;
+    left: 16vw;
+    
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:1000px) {
+    .page1 {
+        width: 100vw;
+        height: 100vh;
+    }
+    .nav {
+        width: 100vw;
+        height: 70px;
+        background-color: rgba(220, 220, 220, 0.226);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 2vw;
+    
+    }
+    .nav h4 {
+        font-size: 5vw;
+        font-weight: 700;
+        font-family: 'Clash Grotesk', sans-serif;
+        color: black;
+    }
+    .navlinks {
+        display: flex;
+        align-items: center;
+        gap: 3vw;
+        padding-right: 2vw;
+    
+    }
+    .navlinks h5 {
+        font-size: 3vw;
+        font-family: 'Excon', sans-serif;
+    }
+    .onepages {
+        /* display: flex; */
+        flex-direction: column;
+    }
+    #page1left {
+        margin-top: 10vw;
+        width: 100%;
+        height: 50vh;
+        /* background-color: red; */
+    }
+    .boxleft {
+        width: 90%;
+        height: 80%;
+        margin-left: 2.2vw;
+        margin-top: 10vw;
+    }
+    .boxleft h4 {
+        font-size: 5vw;
+        font-weight: 700;
+        font-family: 'Clash Grotesk', sans-serif;
+        color: black;
+        text-align: center;
+        padding-top: 3vw;
+    }
+    .boxleft h1 {
+        font-size:17vw;
+        font-weight: 700;
+        font-family: 'Clash Grotesk', sans-serif;
+        color: black;
+        text-align: center;
+        padding-top: 3vw;
+        font-family: 'Stardom', sans-serif;
+        
+    
+    }
+    .boxleft h5 {
+        font-size: 6vw;
+        font-weight: 550;
+        font-family: 'Excon', sans-serif;
+        color: black;
+        text-align: center;
+        padding-top: 3vw;
+    }
+    #page1right {
+        width: 100%;
+        height: 100vh;
+    }
+    #page1right video {
+        width: 100vw;
+        height: 50%;
+        object-fit: cover;
+    }
+    .page2 {
+        width: 100vw;
+        height: 100vh;
+    }
+    .page2 #line {
+        text-align: center;
+        margin-top: 34vw;
+        font-weight: 500;
+        font-size: 4vw;
+        padding-left: 1vw;
+        padding-right: 1vw;
+    }
+    .page2 h3 {
+        text-align: center;
+        margin-top: 7vw;
+        font-size: 7vw;
+        font-family: 'Clash Grotesk', sans-serif;
+    
+    }
+    .services h2 {
+        font-size: 15vw;
+        color: rgb(105, 104, 104);
+        font-family: 'Melodrama', serif;
+    }
+    #serviceone {
+        width: 90vw;
+        height: 70vh;
+        background-color: red;
+        margin-left: 5vw;
+        margin-top: 2vw;
+        border-radius: 2vw;
+    }
+    #oneh {
+        margin-left: -59vw;
+        font-size: 5vw;
+        color: rgb(34, 32, 32);
+    }
+    #servicetwo {
+        width: 90vw;
+        height: 70vh;
+        background-color: red;
+        margin-left: 5vw;
+        margin-top: 2vw;
+        border-radius: 2vw;
+    }
+    #twoh {
+        margin-left: -59vw;
+        font-size: 5vw;
+        color: rgb(34, 32, 32);
+    }
+    #servicethree {
+        width: 90vw;
+        height: 70vh;
+        background-color: red;
+        margin-left: 5vw;
+        margin-top: 2vw;
+        border-radius: 2vw;
+    }
+    #threeh {
+        margin-left: -70vw;
+        font-size: 5vw;
+        color: rgb(34, 32, 32);
+    }
+    #servicefour {
+        width: 90vw;
+        height: 70vh;
+        background-color: red;
+        margin-left: 5vw;
+        margin-top: 2vw;
+        border-radius: 2vw;
+    }
+    #fourh {
+        margin-left: -34vw;
+        font-size: 5vw;
+        color: rgb(34, 32, 32);
+    }
+    #servicefive {
+        width: 90vw;
+        height: 70vh;
+        background-color: red;
+        margin-left: 5vw;
+        margin-top: 2vw;
+        border-radius: 2vw;
+    }
+    #fiveh {
+        margin-left: -49vw;
+        font-size: 5vw;
+        color: rgb(34, 32, 32);
+    }
+    #contactlist {
+        line-height: 2;
+        font-size: 3vw;
+    }
+    #followlist a {
+        text-decoration: none;
+        color: white;
+        line-height: 2;
+        font-size: 3vw;
+
+    
+    }
+    #menulist a {
+        text-decoration: none;
+        color: white;
+        line-height: 2;
+        font-size: 3vw;
+
+    
+    }
+    .footerfooter h1 {
+        display: none;
+    }
+} 
+    
+
+
+
+
+
+
+    
+    
+    
+   

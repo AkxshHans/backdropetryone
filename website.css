@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body {
+    width: 100%;
+    height: 100%;
+}
+.page1 {
+    width: 100vw;
+    height: 100vh;
+}
+.nav {
+    width: 100vw;
+    height: 50px;
+    background-color: rgba(220, 220, 220, 0.226);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2vw;
+
+}
+.nav h4 {
+    font-size: 1.7vw;
+    font-weight: 700;
+    font-family: 'Clash Grotesk', sans-serif;
+    color: black;
+}
+.navlinks {
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+    padding-right: 2vw;
+
+}
+.navlinks h5 {
+    font-size: 1.2vw;
+    font-weight: 550;
+    font-family: 'Excon', sans-serif;
+}
+.page1 {
+    width: 100vw;
+    height: auto;
+    background-color: #EAEAEA;
+}
+.page1 h2 {
+    margin-left:28vw ;
+    padding-top: 2vw;
+    font-weight: 200;
+}
+.page1 h1 {
+    font-size: 7vw;
+    padding-top: 10vw;
+    padding-left: 2vw;
+    font-family: 'Melodrama', serif;
+    color: rgba(0, 0, 0, 0.815);
+}
+.page1 video {
+    width: 100vw;
+    
+}
+.page1 h3 {
+    text-align: center;
+    margin-top: 2vw;
+    font-size: 2.5vw;
+    font-weight: 100;
+}
+.webprojects {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 3vw;
+}
+.webprojects h5 {
+    font-size: 2vw;
+    font-weight: 100;
+}
+.projectshow {
+    width: 400px;
+    height: 300px;
+    background-color: red;
+    margin-top: 7vw;
+
+}
+.projectshow img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.page2 {
+    width: 100vw;
+    height: auto;
+    background-color: #EAEAEA;
+}
+.page2 button {
+    padding: 1vw;
+    border: none;
+    border-radius: 2vw;
+    margin-top: 7vw;
+    margin-left: 45vw;
+    padding: 45;
+    text-align: center;
+    font-size: 1.2vw;
+    background-color: grey;
+    color: black;
+}
+.page2 button:hover{
+    color: white;
+    background-color: black;
+}
+.page2 h3 {
+    font-size: 6vw;
+    text-align: center;
+    margin-bottom: 4vw;
+
+}
+.whatwedo {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(145, 136, 136, 0.144);
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3vw;
+}
+.whatwedo:hover{
+    background-color:white;
+    color: black;
+}
+.whatwedo h3 {
+    font-weight: 100;
+    font-size: 1.5vw;
+    font-style: italic;
+}
+.whatwedo h3:hover {
+    font-weight: 100;
+    font-size: 1.5vw;
+    font-style: normal;
+}
+.page3 img {
+    margin-top: 1vw;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1000px) {
+    .page1 {
+        width: 100vw;
+        height: auto;
+    }
+    .page1 h2 {
+        margin-left:17vw ;
+        padding-top: 2vw;
+        font-weight: 800;
+        font-size: 3.9vw;
+        width: 60vw;
+    }
+    .nav {
+        width: 100vw;
+        height: 70px;
+        background-color: rgba(220, 220, 220, 0.226);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 2vw;
+    
+    }
+    .nav h4 {
+        font-size: 5vw;
+        font-weight: 700;
+        font-family: 'Clash Grotesk', sans-serif;
+        color: black;
+    }
+    .navlinks {
+        display: flex;
+        align-items: center;
+        gap: 3vw;
+        padding-right: 2vw;
+    
+    }
+    .navlinks h5 {
+        font-size: 2vw;
+        display: none;
+        font-weight: 550;
+        font-family: 'Excon', sans-serif;
+    }
+    .page1 h1 {
+        font-size: 11vw;
+        padding-top: 10vw;
+        padding-left: 2vw;
+        font-family: 'Melodrama', serif;
+        color: rgba(0, 0, 0, 0.815);
+    }
+    .page1 h3 {
+        text-align: center;
+        margin-top: 10vw;
+        font-size: 8vw;
+        font-weight: 100;
+        margin-bottom: 8vw;
+    }
+    .webprojects {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 3.5vw;
+        flex-direction: column;
+        gap: 8vw;
+    }
+    .projectshow {
+        width: 300px;
+        height: 300px;
+        background-color: red;
+    }
+    .webprojects h5 {
+        font-size: 7vw;
+    }
+    .page2 button {
+        padding: 1.5vw;
+        border: none;
+        border-radius: 2vw;
+        margin-top: 20vw;
+        margin-left: 33vw;
+        padding: 45;
+        text-align: center;
+        font-size: 5vw;
+        background-color: grey;
+        color: black;
+    }
+    .page2 button:hover{
+        color: white;
+        background-color: black;
+    }
+    .page2 h3 {
+        font-size: 12vw;
+        text-align: center;
+        margin-bottom: 4vw;
+    
+    }
+    .whatwedo {
+        width: 100%;
+        height: 100px;
+        background-color: rgba(145, 136, 136, 0.144);
+        border: 2px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 3vw;
+    }
+    .whatwedo:hover{
+        background-color:white;
+        color: black;
+    }
+    .whatwedo h3 {
+        font-weight: 100;
+        font-size: 5vw;
+        font-style: italic;
+    }
+    .whatwedo h3:hover {
+        font-weight: 100;
+        font-size: 1.5vw;
+        font-style: normal;
+    }
+    
+    
+    
+}

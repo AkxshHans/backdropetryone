@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body {
+    width: 100%;
+    height: 100%;
+}
+.page1 {
+    width: 100vw;
+    height: auto;
+}
+.nav {
+    width: 100vw;
+    height: 50px;
+    background-color: rgba(220, 220, 220, 0.226);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2vw;
+
+}
+.nav h4 {
+    font-size: 1.7vw;
+    font-weight: 700;
+    font-family: 'Clash Grotesk', sans-serif;
+    color: black;
+}
+.navlinks {
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+    padding-right: 2vw;
+
+}
+.navlinks h5 {
+    font-size: 1.2vw;
+    font-weight: 550;
+    font-family: 'Excon', sans-serif;
+}
+.page1 h2 {
+    font-weight: 200;
+    font-size: 3vw;
+    text-align: center;
+    margin-top: 3vw;
+}
+.team {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+ 
+}
+#team1{
+    margin-left: 3.1vw;
+    margin-top: 3vw;
+
+}
+#team1 h1 {
+    margin-left: 3vw;
+    font-weight: 700;
+    color: black;
+
+   }
+   #team1 h3 {
+    color: brown;
+    margin-left: 3vw;
+    font-weight: 900;
+    margin-top: 1vw;
+   }
+   #team1 p {
+    width: 27vw;
+    font-weight: 300;
+    font-size: 1.3vw;
+    margin-top: 1vw;
+    color: black;
+    margin-left: 1vw;
+   }
+#team1 img  {
+ width: 440px;
+ height: 300px;
+ object-fit: cover;
+ object-position: top;
+ transition: cubic-bezier(0.165, 0.84, 0.44, 1) 1s;
+}
+#team1 img:hover {
+    filter: grayscale(1);
+}
+#team1 span {
+    font-style: italic;
+    color: rgb(41, 39, 39);
+}
+
+
+
+
+
+
+@media (max-width:1000px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html , body {
+        width: 100%;
+        height: 100%;
+    }
+    .page1 {
+        width: 100vw;
+        height: 100vh;
+    }
+    .nav {
+        width: 100vw;
+        height: 50px;
+        background-color: rgba(220, 220, 220, 0.226);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 2vw;
+    
+    }
+    .nav h4 {
+        font-size: 5vw;
+        font-weight: 700;
+        font-family: 'Clash Grotesk', sans-serif;
+        color: black;
+    }
+    .navlinks {
+        display: flex;
+        align-items: center;
+        gap: 3vw;
+        padding-right: 2vw;
+    
+    }
+    .navlinks h5 {
+        font-size: 3vw;
+        font-weight: 550;
+        font-family: 'Excon', sans-serif;
+    }
+    .page1 h2 {
+        font-weight: 200;
+        font-size: 6vw;
+        text-align: center;
+        margin-top: 6vw;
+    }
+    .team {
+        display: flex;
+        flex-direction: column;
+    }
+    #team1{
+        margin-left: 4vw;
+        margin-top: 5vw;
+    
+    }
+    
+    #team1 h1 {
+        margin-left: 20vw;
+        font-weight: 700;
+        color: black;
+    
+       }
+       #team1 h3 {
+        color: brown;
+       }
+       #team1 p {
+        width: 90vw;
+        font-weight: 300;
+        font-size: 5vw;
+        margin-top: 1vw;
+        color: black;
+       }
+    #team1 img  {
+     width: 340px;
+     transition: cubic-bezier(0.165, 0.84, 0.44, 1) 1s;
+    }
+    #team1 img:hover {
+        filter: grayscale(1);
+    }
+}
